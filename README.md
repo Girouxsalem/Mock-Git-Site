@@ -1,1 +1,1 @@
-# Mock-Git-Site
+# A Restaurant Mock site
