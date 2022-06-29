@@ -192,6 +192,32 @@ color: #333333;
 color: #333333;
 }
 /* Menu style end */
+/* Testimony style start */
+.testimony-hero {
+    position: relative;
+}
+.testimony-text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    /* Adding top/left of 50% moves the top/left margin edge of the element to the middle of the parent,
+    and translate() function with the negative value of -50% moves the element by the half of it's size.
+    Hence the element will be positioned at the middle */
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 1.4rem;
+    width: 80%;
+    height: 100%;
+    font-weight: lighter;
+}
+.testimony-quote {
+    font-size: 6rem;
+}
+/* Testimony style end */
 
 /* Media Screens */
 @media screen and (min-width:725px) {
