@@ -282,7 +282,7 @@ form {
 }
 input[type=text], 
 input[type=email], 
-input[type=number], 
+input[type=number],
 textarea {
     padding: 10px;
     margin-bottom: 1.6rem;
